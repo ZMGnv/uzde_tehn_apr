@@ -1,2 +1,10 @@
-# zveidot programmu, kas prasa lietotâjam ievadît skaitli n, tad programma aprçíina n+nn+nnn. Rezultâts tiek parâdîts konsolç.
+# Izveidot programmu, kas prasa lietotÄjam 
+# ievadï¿½t skaitli n, tad programma aprï¿½ï¿½ina n+nn+nnn.
+#  Rezultï¿½ts tiek parï¿½dï¿½ts konsolï¿½.
 
+#  1  1+11+111   12...12+1212+121212
+
+skaitlis= input("Ievadi skaitli:")
+sum=int(skaitlis)+int(skaitlis*2)+int(skaitlis*3)
+#print(sum)
+print(skaitlis,"+",skaitlis*2,"+",skaitlis*3,"=",sum)
